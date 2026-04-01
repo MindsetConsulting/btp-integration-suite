@@ -1,0 +1,59 @@
+================================================================================
+SAP Integration Suite — Architect Role Collection
+================================================================================
+Complete list of role templates with XSUAA application identifiers
+================================================================================
+
+ROLE TEMPLATE NAME                                  APPLICATION IDENTIFIER
+--------------------------------------------------------------------------------
+
+--- Cloud Integration (PI_Read_Only + PI_Business_Expert) ---
+AuthGroup_ReadOnly                                  it!b410334
+AuthGroup_BusinessExpert                            it!b410334
+
+--- API Management — API Portal ---
+Guest                                               api-portal-xsuaa!b1711
+
+--- API Management — Developer Hub ---
+ApplicationDeveloper                                dev-portal-xsuaa!b1711
+
+--- Event Mesh ---
+EventMeshManageResources                            eventing-xsuaa-broker!b287412
+EventMeshMonitor                                    eventing-xsuaa-broker!b287412
+EventMeshViewMessagePayload                         eventing-xsuaa-broker!b287412
+
+--- Integration Advisor ---
+ContentRead                                         iadv!b6287
+
+--- Data Space Integration ---
+AuthGroup_DataspaceReadOnly                         dsi!b484362
+
+--- Integration Assessment ---
+IntasIsaRead                                        intas-uaa!b74678
+IntasIsaWrite                                       intas-uaa!b74678
+IntasQuestionnaireRead                              intas-uaa!b74678
+IntasQuestionnaireWrite                             intas-uaa!b74678
+IntasContentUpdateWrite                             intas-uaa!b74678
+IntasApplicationWrite                               intas-uaa!b74678
+IntasTechnologyGeneralWrite                         intas-uaa!b74678
+IntasTechnologyWrite                                intas-uaa!b74678
+IntasRequestWrite                                   intas-uaa!b74678
+IntasAssessmentWrite                                intas-uaa!b74678
+
+--- Migration Assessment ---
+PimasSystemRead                                     pimas-uaa!b105568
+PimasRuleRead                                       pimas-uaa!b105568
+PimasEffortRead                                     pimas-uaa!b105568
+PimasExtractRead                                    pimas-uaa!b105568
+PimasExtractWrite                                   pimas-uaa!b105568
+PimasExtractMonitoringRead                          pimas-uaa!b105568
+PimasEvaluationRead                                 pimas-uaa!b105568
+PimasEvaluationWrite                                pimas-uaa!b105568
+PimasEvaluationMonitoringRead                       pimas-uaa!b105568
+
+--- Graph ---
+Graph_Navigator_Viewer                              abhe-navigator-approuter!t203738
+
+================================================================================
+TOTAL: 29 role templates
+================================================================================
