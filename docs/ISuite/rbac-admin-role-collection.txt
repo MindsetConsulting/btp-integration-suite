@@ -107,6 +107,12 @@ PimasRuleRead                                       pimas-uaa!b105568
 PimasRuleWrite                                      pimas-uaa!b105568
 PimasSystemRead                                     pimas-uaa!b105568
 PimasSystemWrite                                    pimas-uaa!b105568
+PimasExtractRead                                    pimas-uaa!b105568
+PimasExtractWrite                                   pimas-uaa!b105568
+PimasExtractMonitoringRead                          pimas-uaa!b105568
+PimasEvaluationRead                                 pimas-uaa!b105568
+PimasEvaluationWrite                                pimas-uaa!b105568
+PimasEvaluationMonitoringRead                       pimas-uaa!b105568
 
 --- Graph ---
 Graph_Key_User                                      sap-graph!b79797
@@ -116,5 +122,5 @@ Graph_Navigator_Viewer                              abhe-navigator-approuter!t20
 OpenConnectors_User                                 ocnselfserviceagent!b2403
 
 ================================================================================
-TOTAL: 80 role templates
+TOTAL: 86 role templates
 ================================================================================
