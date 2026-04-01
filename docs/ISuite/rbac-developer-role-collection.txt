@@ -1,0 +1,67 @@
+================================================================================
+SAP Integration Suite — Developer Role Collection
+================================================================================
+Complete list of role templates with XSUAA application identifiers
+================================================================================
+
+ROLE TEMPLATE NAME                                  APPLICATION IDENTIFIER
+--------------------------------------------------------------------------------
+
+--- Cloud Integration (PI_Integration_Developer + PI_Business_Expert) ---
+AuthGroup_IntegrationDeveloper                      it!b410334
+AuthGroup_BusinessExpert                            it!b410334
+
+--- Cloud Integration Runtime ---
+MessagingSend                                       it-rt-mindset-development!b410334
+
+--- API Management — API Portal ---
+Developer                                           api-portal-xsuaa!b1711
+Tester                                              api-portal-xsuaa!b1711
+
+--- API Management — Developer Hub ---
+ApplicationDeveloper                                dev-portal-xsuaa!b1711
+
+--- Event Mesh ---
+EventMeshManageResources                            eventing-xsuaa-broker!b287412
+EventMeshMonitor                                    eventing-xsuaa-broker!b287412
+
+--- Integration Advisor ---
+ContentDeveloper                                    iadv!b6287
+
+--- OData Provisioning ---
+ODPManage                                           xfsrt-application!t3091
+ODPAPIAccess                                        xfsrt-application!t3091
+
+--- Data Space Integration ---
+AuthGroup_DataspaceProvider                         dsi!b484362
+AuthGroup_DataspaceConsumer                         dsi!b484362
+
+--- Integration Assessment ---
+IntasRequestWrite                                   intas-uaa!b74678
+IntasIsaRead                                        intas-uaa!b74678
+IntasQuestionnaireRead                              intas-uaa!b74678
+IntasApplicationRead                                intas-uaa!b74678
+IntasTechnologyRead                                 intas-uaa!b74678
+IntasAssessmentRead                                 intas-uaa!b74678
+
+--- Migration Assessment ---
+PimasSystemRead                                     pimas-uaa!b105568
+PimasRuleRead                                       pimas-uaa!b105568
+PimasEffortRead                                     pimas-uaa!b105568
+PimasExtractRead                                    pimas-uaa!b105568
+PimasExtractWrite                                   pimas-uaa!b105568
+PimasExtractMonitoringRead                          pimas-uaa!b105568
+PimasEvaluationRead                                 pimas-uaa!b105568
+PimasEvaluationWrite                                pimas-uaa!b105568
+PimasEvaluationMonitoringRead                       pimas-uaa!b105568
+
+--- Graph ---
+Graph_Key_User                                      sap-graph!b79797
+Graph_Navigator_Viewer                              abhe-navigator-approuter!t203738
+
+--- Open Connectors ---
+OpenConnectors_User                                 ocnselfserviceagent!b2403
+
+================================================================================
+TOTAL: 31 role templates
+================================================================================
