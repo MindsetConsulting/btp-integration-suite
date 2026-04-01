@@ -1,0 +1,120 @@
+================================================================================
+SAP Integration Suite — Administrator Role Collection
+================================================================================
+Complete list of role templates with XSUAA application identifiers
+================================================================================
+
+ROLE TEMPLATE NAME                                  APPLICATION IDENTIFIER
+--------------------------------------------------------------------------------
+
+--- Initial Setup ---
+IntegrationProvisioningAdmin                        it-prov!t410334
+
+--- Cloud Integration (PI_Administrator + PI_Business_Expert) ---
+AuthGroup_Administrator                             it!b410334
+AuthGroup_BusinessExpert                            it!b410334
+MonitoringDataRead                                  it!b410334
+WorkspacePackagesRead                               it!b410334
+CatalogPackagesRead                                 it!b410334
+CatalogPackageArtifactsRead                         it!b410334
+WorkspaceArtifactsDeploy                            it!b410334
+MonitoringArtifactsDeploy                           it!b410334
+SecurityMaterialEdit                                it!b410334
+SecurityMaterialDownload                            it!b410334
+CredentialsEdit                                     it!b410334
+CredentialsRead                                     it!b410334
+AccessPoliciesEdit                                  it!b410334
+AccessPoliciesRead                                  it!b410334
+AccessAllAccessPoliciesArtifacts                    it!b410334
+DataStoresAndQueuesRead                             it!b410334
+DataStoresAndQueuesDelete                           it!b410334
+DataStoresAndQueuesConfig                           it!b410334
+DataStorePayloadsRead                               it!b410334
+MessagePayloadsRead                                 it!b410334
+QueuesActivate                                      it!b410334
+QueuesRetry                                         it!b410334
+UserRolesEdit                                       it!b410334
+TraceConfigurationRead                              it!b410334
+TraceConfigurationEdit                              it!b410334
+WorkspaceArtifactLocksRead                          it!b410334
+WorkspaceArtifactLocksDelete                        it!b410334
+MessageProcessingLocksRead                          it!b410334
+MessageProcessingLocksDelete                        it!b410334
+ExternalLoggingActivate                             it!b410334
+ExternalLoggingActivationRead                       it!b410334
+DataArchivingActivate                               it!b410334
+DataArchivingRead                                   it!b410334
+HealthCheckMonitoringDataRead                       it!b410334
+WorkspacePackagesTransport                          it!b410334
+WorkspaceDesignGuidelinesConfigure                  it!b410334
+IntegrationCellOperationCockpitRead                 it!b410334
+IntegrationCellOperationCockpitWrite                it!b410334
+AuthGroup_TenantPartnerDirectoryConfigurator        it!b410334
+
+--- Cloud Integration Runtime ---
+MessagingSend                                       it-rt-mindset-development!b410334
+
+--- API Management — API Portal ---
+onboardingtemplate                                  api-portal-xsuaa!b1711
+APIPortalAdmin                                      api-portal-xsuaa!b1711
+Configurator                                        api-portal-xsuaa!b1711
+CatalogIntegration                                  api-portal-xsuaa!b1711
+
+--- API Management — Developer Hub ---
+SelfServiceAdmin                                    dev-portal-xsuaa!b1711
+APIAdmin                                            dev-portal-xsuaa!b1711
+ContentAdmin                                        dev-portal-xsuaa!b1711
+SiteAdmin                                           dev-portal-xsuaa!b1711
+ContentAuthor                                       dev-portal-xsuaa!b1711
+APIPortalConnectionRequest                          dev-portal-xsuaa!b1711
+
+--- Event Mesh ---
+EventMeshManageBroker                               eventing-xsuaa-broker!b287412
+EventMeshManageResources                            eventing-xsuaa-broker!b287412
+EventMeshMonitor                                    eventing-xsuaa-broker!b287412
+
+--- Integration Advisor ---
+IAAdministrator                                     iadv!b6287
+
+--- OData Provisioning ---
+ODPManage                                           xfsrt-application!t3091
+ODPAPIAccess                                        xfsrt-application!t3091
+FunctionsManage                                     xfsrt-application!t3091
+
+--- Data Space Integration ---
+AuthGroup_DataspaceTechnicalAdmin                   dsi!b484362
+AuthGroup_DataspaceBusinessAdmin                    dsi!b484362
+
+--- Integration Assessment ---
+IntasIsaWrite                                       intas-uaa!b74678
+IntasQuestionnaireWrite                             intas-uaa!b74678
+IntasApplicationWrite                               intas-uaa!b74678
+IntasContentUpdateWrite                             intas-uaa!b74678
+IntasTechnologyWrite                                intas-uaa!b74678
+IntasRequestWrite                                   intas-uaa!b74678
+IntasAssessmentWrite                                intas-uaa!b74678
+IntasIsaRead                                        intas-uaa!b74678
+IntasQuestionnaireRead                              intas-uaa!b74678
+IntasApplicationRead                                intas-uaa!b74678
+IntasTechnologyRead                                 intas-uaa!b74678
+IntasRequestRead                                    intas-uaa!b74678
+IntasAssessmentRead                                 intas-uaa!b74678
+
+--- Migration Assessment ---
+PimasEffortRead                                     pimas-uaa!b105568
+PimasEffortWrite                                    pimas-uaa!b105568
+PimasRuleRead                                       pimas-uaa!b105568
+PimasRuleWrite                                      pimas-uaa!b105568
+PimasSystemRead                                     pimas-uaa!b105568
+PimasSystemWrite                                    pimas-uaa!b105568
+
+--- Graph ---
+Graph_Key_User                                      sap-graph!b79797
+Graph_Navigator_Viewer                              abhe-navigator-approuter!t203738
+
+--- Open Connectors ---
+OpenConnectors_User                                 ocnselfserviceagent!b2403
+
+================================================================================
+TOTAL: 80 role templates
+================================================================================
